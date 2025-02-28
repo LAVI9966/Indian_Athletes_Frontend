@@ -1,0 +1,31 @@
+@import "tailwindcss";
+@import '@fontsource/rajdhani';
+
+/* ... */
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+.shadow-right {
+  box-shadow: 10px 0 10px -5px rgba(0, 0, 0, 0.1);
+}
+
+.shadow-left {
+  box-shadow: -10px 0 10px -5px rgba(0, 0, 0, 0.5);
+}
