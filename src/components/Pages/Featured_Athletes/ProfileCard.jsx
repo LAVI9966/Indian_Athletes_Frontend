@@ -23,12 +23,12 @@ const ProfileCard = ({ profile }) => {
             <div className="w-full flex flex-col items-center justify-center mt-6 md:mt-12">
                 <h2 className="text-sm md:text-lg font-semibold">{profile.name}</h2>
                 <p className="text-gray-500 text-xs md:text-sm">UID : {profile.uid}</p>
-                <Link to={`/profile/${profile.id}`}>
-                    <button className="mt-2 md:mt-4 bg-blue-500 text-white px-3 py-1 md:px-6 md:py-2 
+                {/* <Link to={`/profile/${profile.id}`}> */}
+                <button className="mt-2 md:mt-4 bg-blue-500 text-white px-3 py-1 md:px-6 md:py-2 
                     rounded-lg shadow-lg hover:bg-blue-600 text-xs md:text-sm">
-                        View Profile
-                    </button>
-                </Link>
+                    View Profile
+                </button>
+                {/* </Link> */}
             </div>
         </div>
     );
